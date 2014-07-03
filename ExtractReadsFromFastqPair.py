@@ -50,7 +50,7 @@ def extract_reads(readListFile, locationOfFastqDir):
             (r1_zgrep,err_R1) = r1_P.communicate()
             (r2_zgrep, err_R2) = r2_P.communicate()
 
-            r1_out.write(r1_zgrep + '\n')
+            r1_out.write(line + '\n')
             r2_out.write(r2_zgrep + '\n')
 
     f_in.close()
