@@ -2,8 +2,8 @@ __author__ = 'riteshk'
 
 '''
 Plutella : Code to handle the FASTA produced by assembly
-
 Format of original assembly as stored in -/pub9/ritesh/Plutella/sequenceStorage/sspaceTry19_with_unscaffoldedContigs.fas
+Example accessions -
     >scaffold17257|size1500
     >scaffold17258|size1500
     >scaffold17259|size1500
